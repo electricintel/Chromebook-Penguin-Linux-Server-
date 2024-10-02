@@ -51,3 +51,8 @@ $sudo chmod+x /usr/bin/gol
 
 #START LXDE
 $gol
+
+#Install Gnome Boxes
+#Open LXDE Terminal
+$sudo apt install libvirt-clients
+$sudo apt install gnome-boxes
