@@ -57,7 +57,7 @@ $gol
 $sudo apt install libvirt-clients
 $sudo apt install gnome-boxes
 
-#[I](https://www.reddit.com/r/Crostini/comments/qtk3bm/run_ssh_server_on_chromebook/) 
+#https://www.reddit.com/r/Crostini/comments/qtk3bm/run_ssh_server_on_chromebook
 I managed to log into my/our Chromebook(s) via ssh and have access to all the files on it (also outside of the Linux container) as long as folders are shared with the container.
 
 Inside of Linux container:
