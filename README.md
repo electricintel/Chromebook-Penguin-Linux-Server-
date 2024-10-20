@@ -76,6 +76,10 @@ Port 1088 (arbitrary, anything above 1024, port 22 and 2222 are banned for ssh)
 sudo systemctl start ssh
 sudo systemctl enable ssh
 maybe restart and connect from outside machine:
-ssh -p 1088 <user>@<chromeOS-IP\_notLinuxContainerIP>
-The IP address is not the IP of the container but of the Chromebook, like f.i.
-ssh -p 1088 jo@192.168.100.5
+ssh -p 1088 <user>@LinuxContainerIP>
+
+
+(https://support.google.com/chromebook/thread/272331560/input-output-error-from-penguin-linux-in-chromeos?hl=en
+You will need the ip address of your Linux container. You can get this using the following command.
+
+hostname -I
